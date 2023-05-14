@@ -1,0 +1,3 @@
+[allergy]
+drugs_important = ['Монтрал', 'Мометазон']
+drugs_additional = ['Аллервей', 'Визаллергол']
