@@ -48,7 +48,3 @@ class Notifier:
             logging.warning(f'Состояние: Среднее. {logging_message}')
         if activated_event_args.inputs['drugs_allergy'] == 'bad':
             logging.critical(f'Состояние: Плохое. {logging_message}')
-
-
-
-
