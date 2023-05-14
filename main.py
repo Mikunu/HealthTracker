@@ -25,7 +25,7 @@ def make_notify_text(drug_list: List[str] = None, drug_list_additional: List[str
 
 
 def main():
-    pollen_status = True
+    pollen_status = False
     logging.basicConfig(filename=r'C:\\Users\nonam\PycharmProjects\aihelper\logging\human_log.log',
                         format='[%(levelname)s] %(asctime)s: %(message)s', datefmt='%Y-%m-%d',
                         level=logging.INFO, encoding='utf-8')
